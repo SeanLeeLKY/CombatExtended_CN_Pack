@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: CE: New aiming system -->
+  <CE_AimingSystem.label>CE: 全新的瞄准系统</CE_AimingSystem.label>
+  <!-- EN: Combat Extended uses a new physics-based projectile system. Projectiles follow a ballistic flight path and use hitboxes for collision detection. Several factors determine how close a bullet will fly near it's target:\n\n-Visibility: Darkness, bad weather and smoke make it harder to see the target.\n-Movement: shooter has to lead a moving target. Lead error means the shooter might aim too far forward or back in the direction of movement.\n-Range: shooter needs to correctly estimate how far away the target is. Range error means the shooter will aim as if target was x cells closer/further than it actually is.\n-Sway: Weapons will sway in the hands of the shooter. Reduced by aimed shot mode (reduction depends on skill and sights efficiency).\n-Recoil: Shots within a burst gradually become less accurate\n-Weapon spread: Bullets randomly deviate in a cone (e.g. shotgun pellets).\n-Cover height: Cover obscures parts of the target's hitbox. Can block line of sight for smaller targets (e.g. squirrels behind sandbags).\n-Body size\n-Stance: Downed or hunkering pawns are harder to hit.\n\nYou can get a detailed breakdown by selecting a shooter and hovering the mouse over a target. Given measurements are the maximum deviation in cells/degrees and target/cover hitbox dimensions in cells. -->
+  <CE_AimingSystem.helpText>战斗扩展（Combat Extended）使用了一种区别于原版的基于物理情况的投射物检测系统。 弹丸遵从基本的投射物飞行路径并且使用“碰撞盒”（hitboxes）来进行物理碰撞检测。多种因素交织形成的关联系统决定了一枚弹丸和目标之间的距离关系：\n\n-视线: 黑暗环境，恶劣天气以及烟雾等情况都会导致射击者看不清目标。\n-移速: 射手在瞄准一个移动目标的时候，瞄准误差表示射手有可能瞄准的是偏目标运动方向前或者是后的位置。\n-射击距离: 射手必须尽量正确评估目标和自己之间的距离。距离误差表示射手预估目标距离自己X格与实际距离相比是偏远还是偏近。\n-摆动幅度: 武器持用在手时会有轻度的摇晃，可以通过瞄准射击模式降低这个误差数值（但是主要取决于射手的射击技能和视觉效率）。\n-武器后坐: 武器发射时带来的反冲力将会使本轮射击逐渐降低精度。\n-射弹散布: 子弹在击中目标某个区域的散布概率数值。（例如：霰弹枪开枪之后的弹着点形状。）\n-掩体高度: 目标的碰撞检测盒被掩盖的高度。 并且能完全阻挡对于较小目标的射击视线。（例如：躲在沙袋掩体后面的松鼠将完全无法攻击）\n-目标大小\n-目标姿态: 趴下或者蹲伏的目标将会很难被击中。\n\n选择射击者，然后将光标移至目标上方，你会看到相关的瞄准射击数据。最终的最大数据偏差主要取决于格数/角度以及目标大小/掩体数据之间的公式化计算结果。</CE_AimingSystem.helpText>
+  
+  <!-- EN: CE: Aim modes -->
+  <CE_AimModes.label>CE: 瞄准模式</CE_AimModes.label>
+  <!-- EN: Depending on the weapon, your colonists can use up to three different aim modes when shooting: aimed shot, snapshot, and suppress.\n\nAimed shot reduces weapon sway, increasing the likelyhood of hitting a target, but requires two aiming cycles before firing a shot, with the exact aim time depending on the distance to the target. The further away a target is, the longer the shooter has to aim. The bonus provided by aimed shot depends on the shooter's aiming accuracy. A skilled sharpshooter can eliminate nearly all sway by using aimed shot, whereas a low-skilled shooter gains only very little benefit.\n\nSnapshot requires only one aiming cycle before firing, and is ideal in cases where weapon sway isn't as impactful (such as close-range gunfights) or for low-skill shooters where shooting more often is generally preferable to the negligible benefit they'd get from aimed shot.\n\nSuppress is mechanically identical to Snapshot, except it allows shooting at targets that have hunkered down behind cover and are no longer visible by the shooter. While those shots will not realistically hit their target due to obstructions, they are effective at keeping enemies pinned down, preventing them from returning fire.\n\nTo cycle between the fire modes select a colonist and click the AIM MODE button. The button will change to display the currently selected mode.\n\nPawns affected by suppression cannot use aimed shot, regardless of what setting is selected (they will use snapshot if set to aimed shot). Mechanoids and auto-turrets on the other hand always use aimed shot. -->
+  <CE_AimModes.helpText>人物拥有两种不同的射击瞄准模式：快速射击和瞄准射击。快速射击顾名思义，在开火前只有很短的一个预热时间。瞄准射击则瞄准预热后通过使用额外时间瞄准来降低武器摆动幅度，额外的时间长度取决于攻击目标距离攻击者的远近程度。距离越远，瞄准时间就越长。\n\n瞄准射击所带来的射击增益主要还是取决于射手的瞄准精度。一个老练的神射手可以通过精确瞄准的方式消除几乎所有的不利影响，而射击等级低的人物则会觉得瞄不瞄准区别不大。\n\n点击瞄准模式按钮可以在预设的几个模式之间切换，而按钮显示的模式就是人物当前使用的模式。\n\n另外，不管你选择什么模式，当人物处于被压制状态时都不能使用瞄准模式，而机械族和自动炮塔永远都是使用瞄准射击模式。</CE_AimModes.helpText>
+  
+  <!-- EN: CE: New armor system -->
+  <CE_ArmorSystem.label>CE: 全新的护甲系统</CE_ArmorSystem.label>
+  <!-- EN: Combat Extended replaces the vanilla armor system with a penetration-based model. Blunt and sharp type weapons have armor penetration values which determine how much their damage is reduced by armor.\n\nAttacks that have less armor penetration than the armor value of a pawn are either deflected or fully mitigated, however armor values lower than the armor penetration will reduce damage based on the ratio of armor value to the attack's base armor penetration (e.g: if a pawn with an armor value of 8mm RHA is hit by a 10mm RHA projectile, the armor will block 80% of the damage).\nBlocked sharp damage is always turned into blunt damage and is checked against the blunt armor rating. The amount of blunt damage depends on the attack's base blunt penetration, which is affected by blocked sharp damage and blocked sharp penetration.\nIn the case of a deflection, a sharp attack is converted into blunt (preventing bleeding and internal organ damage) and is checked against the blunt armor rating. The amount of blunt damage depends on the attack's base blunt penetration and the pre-deflection remaining sharp penetration.\nA full mitigation happens when a blunt or sharp attack deals no damage because all armor penetration values are less than their armor rating. A sharp attack has to firstly be deflected to be fully mitigated.\n\nEnvironmental damage such as fire/electricity has no penetration and is simply reduced by the % of armor against that type. -->
+  <CE_ArmorSystem.helpText>战斗扩展（Combat Extended）使用了基于穿透数据模型的装甲系统替代了原版的护甲系统。钝器和锐器都有相应的护甲穿透数据，这个数据决定了对方护甲的伤害抵抗量。\n\n如果一种武器的护甲穿透数据等于护甲的抵抗能力，那么攻击只能造成50%伤害。如果护甲的穿透抵抗力是武器的两倍，那么攻击将不会造成任何伤害，同样的，如果护甲抵抗力低于武器穿透力的一半，那么攻击将造成全额伤害。\n\n此外，锐器伤害还会对护甲进行额外的偏斜检测，如果穿透力等于护甲抵抗力，那么攻击伤害将有50%的几率被偏转为钝性伤害，能有效的防止流血外伤和内脏损伤。\n\n其他的环境类型伤害诸如热伤、电伤等没有穿透数据检测和加成，仅有相应的百分比免除。</CE_ArmorSystem.helpText>
+  
+  <!-- EN: CE: Crouching -->
+  <CE_Crouching.label>CE: 蹲伏</CE_Crouching.label>
+  <!-- EN: Any drafted human will crouch when they are not moving, making them a smaller target. You can get a detailed breakdown by selecting a shooter and hovering the mouse over a target.\n\nCrouched pawns will make efficient use of nearby cover, only revealing enough of their head to aim and shoot. -->
+  <CE_Crouching.helpText>任何已征召人物停止运动时都会处于蹲伏状态，这样他们暴露的目标面积就会比平常小。你可以将鼠标移到人物上方查看悬浮窗里的各种作战数据。\n\n蹲伏状态的人物能更加有效的利用附近的掩蔽物，只露出他们的手和头来瞄准、射击。</CE_Crouching.helpText>
+  
+  <!-- EN: CE: Fire modes -->
+  <CE_FireModes.label>CE: 开火模式</CE_FireModes.label>
+  <!-- EN: Fully-automatic weapons can be fired in multiple ways. You can choose between single, burst and full-auto fire. Longer bursts have increased damage and can suppress more easily but the longer the burst, the more accuracy is lost to recoil. They also deplete magazines much more quickly.\n\nUse lower shot counts for far-away enemies you want to hit and longer bursts for suppression, close range and clumped up enemies.\n\nTo change a colonist's fire mode select him, then click the FIRE MODE button to cycle through the available modes. The button also displays the currently selected mode. -->
+  <CE_FireModes.helpText>全自动武器拥有多种开火模式。你可以选择单发、短点射和全自动模式。特别是全自动模式，拥有强大的火力输出能力，能对敌人造成更多的伤害也更容易压制敌人，不过全自动模式的坏处也显而易见，容易造成稳定性降低，从而需要更多的时间复瞄，而且子弹消耗如流水。\n\n对于距离较远的敌人来说，选择单发或者短点射攻击是一种不错的选择，可以对敌人进行持续有效的攻击和压制，提高武器的使用效率，当敌人接近时也会有更高的瞄准精度。\n\n点击选择一个人物的时候，开火模式面板上将会显示当前武器的射击模式，持续点击开火模式面板，可以在预设的三种开火模式之间来回切换。</CE_FireModes.helpText>
+  
+  <!-- EN: CE: Hunkering -->
+  <CE_Hunkering.label>CE: 俯卧状态</CE_Hunkering.label>
+  <!-- EN: If someone's suppression meter maxes out they will hunker in panic. This causes them to run for the nearest cover and lie down, unable to shoot back or take any action until their suppression ticks down, essentially removing them from the fight.\n\nHunkering pawns are marked by an orange downwards arrow. -->
+  <CE_Hunkering.helpText>人物的压制状态超过其承受力的时候，他们会惊慌并东躲西藏。具体行为就是他们会跑到最近的掩蔽物附近俯卧，在压制状态值没有跌落到正常范围前这些任务无法还击和做其他动作，所以最好还是尽快让他们撤出战斗。\n\n被压制而处于俯卧状态的人物旁边会出现黄色向下箭头符号。</CE_Hunkering.helpText>
+  
+  <!-- EN: CE: Artillery direct fire -->
+  <CE_MortarDirectFire.label>CE:火炮直瞄射击</CE_MortarDirectFire.label>
+  <!-- EN: Mortars are much more accurate when firing at targets they can see. If your mortar operator is within sniper rifle range of the target and has direct line of sight to it they will be able to direct fire directly.\n\nWhen firing at targets they can't see mortars need spotters or they suffer hefty accuracy penalties. You can check your hit chances by selecting the mortar and hovering over a target. -->
+  <CE_MortarDirectFire.helpText>当能直接看见目标的时候，火炮的射击精度将会更高。当敌方目标出现在狙击距离上，并且炮手和目标之间没有障碍物阻挡的时候，就达到了直瞄射击的条件。\n\n换而言之，如果炮手在没有观察员帮助定位而且也不能看见弹着点的情况下实施射击行为，那么射击精度将会大打折扣。 你可以通过选中迫击炮，用光标移至目标上的动作来检查各种射击数据。</CE_MortarDirectFire.helpText>
+  
+  <!-- EN: CE: Muzzle flash -->
+  <CE_MuzzleFlash.label>TODO</CE_MuzzleFlash.label>
+  <!-- EN: Many weapons produce a muzzle flash in darkness, momentarily lighting up the shooter's position and exposing them to more accurate fire for a short time. A high rate of fire or larger muzzle flash makes the shooter easier to target. -->
+  <CE_MuzzleFlash.helpText>TODO</CE_MuzzleFlash.helpText>
+  
+  <!-- EN: CE: Night vision -->
+  <CE_NightVision.label>TODO</CE_NightVision.label>
+  <!-- EN: Darkness significantly reduces accuracy at longer ranges. This penalty can be offset with night vision from implants, apparel, weapons, or innate racial trait. Night vision does not stack across categories (night vision from a recon helmet will not combine with night vision from bionic eyes). Instead, only the highest efficiency source available will be used. -->
+  <CE_NightVision.helpText>TODO</CE_NightVision.helpText>
+  
+  <!-- EN: CE: Reloading guns -->
+  <CE_Reload.label>CE: 弹匣类武器</CE_Reload.label>
+  <!-- EN: Guns have limited magazine capacity and display their current ammo amount when selecting the gun or its wielder. Once a magazine is empty your colonist needs to spend time reloading. This can take quite a long time for some weapons and consumes ammo from the shooter's inventory.\n\nIn addition to the magazine count guns display their currently loaded ammo type. Different types of ammo can have significantly different performance. It's important to select the appropriate ammo for the enemy you're fighting.\n\nYou can manually order a reload or change the selected ammo type by selecting a colonist and clicking the RELOAD button. This will bring up a menu with a reload command and a list of ammo types in the colonist's inventory.\n\nThe 'Unload' command can be used to dump the currently loaded ammo into the inventory. Ordering a reload with a partially filled magazine will do this automatically. -->
+  <CE_Reload.helpText>枪支类武器拥有“弹匣”这个系统，并且弹匣的容量是有限，你可以通过点击枪支或者枪支的持有者来检查这个数值。当枪支弹匣中的子弹消耗完毕，人物需要从身上携带的备用弹药中取出一部分来装填，这个动作可能需要花费一点时间。\n\n除了弹匣数量这个信息以外，还有相应的弹药类型的信息，不同的弹药类型拥有不同的作战性能，面对不同的敌人使用适合类型的弹药来战斗非常重要。\n\n可以手动命令重新加载或更改所选的弹药类型，选择一个人物并点击“装填”按钮。列表中将会显示人物身上所有的适合这个武器的弹药，然后可以选择装填不同类型的弹药。\n\n“卸载”命令可以将枪中的弹药转存到人物身上，装填动作也会自动选择可用弹药来装填武器。</CE_Reload.helpText>
+  
+  <!-- EN: CE: Reloading auto-turrets -->
+  <CE_ReloadAuto.label>CE: 装填自动炮塔</CE_ReloadAuto.label>
+  <!-- EN: Auto-turrets have a limited ammo capacity and no means of reloading themselves. Colonists assigned to the 'Haul' worktype will automatically refill auto-turrets' magazines once they haven't fired for a while.\n\nYou can also order a manual reload by selecting a hauler and right-clicking the turret.\n\nTo select which ammo type your colonists should load, select the turret and click the RELOAD button to bring up a list of all possible ammo types. -->
+  <CE_ReloadAuto.helpText>自动炮塔的弹匣容量也是有限的，它们只是会自动攻击，并不会“自动”装弹。当炮塔停止攻击后，被指定了“搬运”工作的人物会自动给炮塔装填弹药。\n\n你也可以手动选择人物，然后右击炮塔进行装填工作。\n\n要为炮塔装填不同类型的弹药时，请选择炮塔并点击“装填”按钮以选择存在于本地并且可以用于这种炮塔的所有弹药类型。</CE_ReloadAuto.helpText>
+  
+  <!-- EN: CE: Reloading manned turrets -->
+  <CE_ReloadManned.label>CE: 装填手动炮塔</CE_ReloadManned.label>
+  <!-- EN: Manned turrets require reloading just like regular guns. Whenever there is a pawn manning them they will automatically use ammo from their inventory to reload or fetch ammo from a nearby stockpile if they're not carrying any.\n\nYou can select a turret and use the RELOAD button to order a manual reload or change the ammo type for that turret. You can also use the 'Unload' command to dump the currently loaded ammo out.\n\nNote that the turret needs to have someone manning it to execute reload commands. -->
+  <CE_ReloadManned.helpText>手动炮塔的操作方式比较类似于普通枪支。当人物操作炮塔攻击耗尽弹药时，人物会自动使用自带的适合炮塔的弹药进行装填，如果未携带合适的弹药，人物将会从最近的弹药存储区拿取弹药装填炮塔。\n\n你可以选择炮塔，然后使用“装填”按钮重新装填炮塔或者改变炮塔正在使用的弹药类型。你也可以使用“卸载”按钮来退出剩余弹药。\n\n需要注意的是，以上的互动操作必须要人物来手动完成。</CE_ReloadManned.helpText>
+  
+  <!-- EN: CE: Weapons without magazine -->
+  <CE_ReloadNoMag.label>CE: 无弹匣武器</CE_ReloadNoMag.label>
+  <!-- EN: Some weapons such as bows have no magazine that can be loaded. They instead consume ammo directly from their wielder's inventory.\n\nYou can select a pawn and use the RELOAD button to select which of the currently carried ammo-types to use. -->
+  <CE_ReloadNoMag.helpText>有些类型的武器没有”弹匣“这个系统，例如弓箭等。它们消耗的弹药将直接从人物身上支取。\n\n选择人物后，可以通过点击“装填”按钮来检视人物身上所有适合这种武器的弹药类别。</CE_ReloadNoMag.helpText>
+  
+  <!-- EN: CE: Reusable projectiles -->
+  <CE_ReusableNeolithicProjectiles.label>CE: 可复用弹药</CE_ReusableNeolithicProjectiles.label>
+  <!-- EN: Some projectiles can be re-used after they impact something. This applies to such projectiles as arrows, great arrows, slingshot stones and crossbow bolts. Re-usable ammo is initially forbidden, and re-usability follows a tiered progression: stone arrows will break on impact more often than plasteel ones.\n\nIf you prefer to go without this feature, turn off "Re-use neolithic projectiles" in the mod settings menu (Settings -> Mod settings -> CombatExtended). -->
+  <CE_ReusableNeolithicProjectiles.helpText>有几种弹药在攻击到物体后可以直接回收使用。例如箭矢、巨箭以及弩箭等。掉在地上的可复用弹药默认情况下是禁止互动的，而且从材质来讲，比如玻璃钢箭矢就比石头箭矢更加耐用。\n\n如果你不想复用弹药生效，可以关闭“可重复使用的石器时代弹药”这个设置选项。(选项 -> Mod 选项 -> CombatExtended).</CE_ReusableNeolithicProjectiles.helpText>
+  
+  <!-- EN: CE: Shields -->
+  <CE_Shields.label>CE: 护盾</CE_Shields.label>
+  <!-- EN: Shields can provide protection against projectiles and melee attacks at the cost of being unable to use two-handed weapons. They are divided into two categories: regular shields and ballistic shields.\n\nRegular shields will deflect projectiles impacting the torso and have a chance to deflect melee attacks depending on the attacker's and defender's melee skills.\n\nBallistic shields are large and cumbersome, inflicting penalties to melee and ranged combat but they also cover the entire head area and can be crouched behind to protect most of the legs.\n\nShields don't make you invincible however, taking offensive actions will expose the weapon arm while high-penetration rounds will punch through or damage the shield. Don't expect a wooden shield to deflect gunfire! -->
+  <CE_Shields.helpText>在战斗中，护盾能够为你额外提供格挡子弹（箭矢、破片等投射物）和减免近战攻击的能力，但是代价是你不能使用双手武器（如步枪、机枪等）。它们分两种：普通盾牌和防弹盾牌。\n\n普通盾牌可以降低流弹对人物的影响，并且可以在近身战斗中提供额外的格挡能力，当然，主要还是取决于进攻者和防御者的近战技能等级。\n\n防弹盾牌则是一种巨大厚重的盾牌，而且对于近战和远攻都有较高的数据惩罚，不过它提供的防御面积能覆盖整个头部以及蹲伏姿态下大部分的腿部，适合用于在枪林弹雨中强攻冲锋。\n\n盾牌不会让你得金刚不坏，而且在作出攻击动作时，人物的手臂也会暴露出来，并且在一些特制的高速度、高强度、高穿深的武器面前，盾牌和你身上的衬衣一样没什么区别。当然也就更别指望拿着一个木盾去挑战“金属风暴” ！</CE_Shields.helpText>
+  
+  <!-- EN: CE: Artillery spotting -->
+  <CE_Spotting.label>CE: 火炮定位系统</CE_Spotting.label>
+  <!-- EN: You can have colonists act as spotters for artillery. To do this, equip a pair of binoculars, then order your colonist to target an enemy or a spot on the ground.\n\nAfter a while the target will be marked with a red 'x'. Now select your mortar and order it to fire at the marked target.\n\nThis not only removes indirect fire penalties, it will also use the spotter's aiming accuracy instead of the mortar operator's. Use skilled spotters with sharp eyes to direct artillery directly onto your enemies. -->
+  <CE_Spotting.helpText>你可以将你的人物作为炮火打击观察员使用。为你的人物装备一副双筒望远镜，然后命令你的人物在适合的距离上对敌方目标或者某个地面区域进行标记。\n\n短时间过后，目标位置将会被标记为红色“X”符号，然后选择你的迫击炮对已标记目标进行攻击。\n\n这种方式将会直接消除间瞄射击带来的精度惩罚，而且射击时使用的是火炮定位观察员的射击先关参数而不是使用火炮操作员的技能。记得要人善其用，让拥有老练技能的观察员为你的敌人带去毁灭吧！</CE_Spotting.helpText>
+  
+  <!-- EN: CE: Stabilizing injuries -->
+  <CE_Stabilizing.label>CE: 稳定伤情</CE_Stabilizing.label>
+  <!-- EN: When a living creature is downed its wounds can be stabilized using medicine. This will temporarily reduce the amount of blood loss but does nothing to actually treat the wound.\n\nSelect a colonist with medicine in his inventory and right-click the creature you want to stabilize, then click the 'Stabilize' option.\n\nThe amount of bleed reduction depends on medicine skill and medicine used. Internal injuries are harder to treat than external ones and missing body parts can't be stabilized at all. -->
+  <CE_Stabilizing.helpText>当一个生物因为伤势过重倒地时，可以让人物使用一定的药物对其进行急救。不过这种急救行为只能临时性的降低大出血的状况，并不能真正的治愈伤口。\n\n操作方式：选择一个身上带着药物的人物，然后右键点击你想要急救的生物（人物或者动物），选择“急救”选项即可。\n\n失血百分率的减少量取决于急救者的医疗技能以及药物疗效。内伤比外伤更难处理，而且身体某个部分缺失这种伤情无法完全止血。</CE_Stabilizing.helpText>
+  
+  <!-- EN: CE: Suppression -->
+  <CE_SuppressionReaction.label>CE: 压制状态</CE_SuppressionReaction.label>
+  <!-- EN: All humans have a suppression meter, based on their mental break threshold and current mood. Any time gunfire passes by them, it will add to the meter based on projectile power and (lack of) worn armor. \n\nWhen someone's suppression threshold is reached they will panic, run for the nearest cover and become incapable of using aimed shot mode, making it a good tool to break up melee charges or reduce sniper accuracy. It will also impart a mood penalty, making them easier to suppress in the future.\n\nYou can recognize suppressed pawns by the yellow downwards arrow they're emitting. -->
+  <CE_SuppressionReaction.helpText>所有人物都拥有一个压制状态数据，数据值由人物的精神崩溃阙值以及当前情绪状态决定。在任何时候，只要有子弹、箭矢等攻击性投射物飞过人物附近时，压制状态数据就会上升，上升的数值取决于飞过的投射物的威力以及人物身上护甲的厚实程度。\n\n当人物的压制状态值超过自身的承受力时，人物就会惊慌失措，他会奔向最近的可用掩护物如掩体石头树木等，而且无法使用瞄准射击模式还击，不过这种行为也会打乱近身攻击的节奏以及降低狙击手的瞄准精度。而且会让人物有心情方面的惩罚，使得人物接下来更容易被压制。\n\n当产生这种情况时，你可以很容易的识别处于被压制的人物，他们的旁边会出现黄色的向下箭头符号。</CE_SuppressionReaction.helpText>
+  
+  <!-- EN: CE: Bulky clothing -->
+  <CE_WornBulk.label>CE: 衣物影响</CE_WornBulk.label>
+  <!-- EN: Certain clothing items are very bulky and will hinder your colonists in their daily tasks, lowering work speed when worn. These items include things like armor and regular clothing made from certain materials such as hyperweave.\n\nYou can check the info-menu of a particular apparel to see its 'worn bulk' stat to see how much bulk it adds when equipped on a colonist. -->
+  <CE_WornBulk.helpText>某些衣物会显得很笨重并影响人物的日常工作，普遍的情况就是影响全局工作速度。护甲和普通衣物一般都会有这些影响，就算是超织物材质的也是一样的。\n\n你可以通过点击衣物信息面板，检视穿着体积增量列表来查看衣物增加的体积携带能力。</CE_WornBulk.helpText>
+  
+</LanguageData>

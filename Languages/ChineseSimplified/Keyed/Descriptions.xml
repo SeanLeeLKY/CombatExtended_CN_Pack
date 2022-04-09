@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Damage -->
+  <CE_DescDamage>伤害</CE_DescDamage>
+  <!-- EN: Base damage -->
+  <CE_DescBaseDamage>基础伤害</CE_DescBaseDamage>
+  <!-- EN: Explosion radius -->
+  <CE_DescExplosionRadius>爆炸范围</CE_DescExplosionRadius>
+  <!-- EN: Secondary explosion -->
+  <CE_DescSecondaryExplosion>次级爆炸</CE_DescSecondaryExplosion>
+  <!-- EN: Frag range -->
+  <CE_DescFragRange>破片范围</CE_DescFragRange>
+  <!-- EN: Armor penetration -->
+  <CE_DescArmorPenetration>护甲穿透</CE_DescArmorPenetration>
+  <!-- EN: Sharp penetration -->
+  <CE_DescSharpPenetration>利器穿透</CE_DescSharpPenetration>
+  <!-- EN: Blunt penetration -->
+  <CE_DescBluntPenetration>钝器穿透</CE_DescBluntPenetration>
+  <!-- EN: Pellet count -->
+  <CE_DescPelletCount>弹丸数量</CE_DescPelletCount>
+  <!-- EN: Spread factor -->
+  <CE_DescSpreadMult>散布率</CE_DescSpreadMult>
+
+</LanguageData>

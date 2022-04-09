@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: supercapacitor -->
+  <MechanicalCapacitor.label>TODO</MechanicalCapacitor.label>
+  
+  <!-- EN: coolant tank -->
+  <MechanicalCoolantTank.label>冷却剂箱</MechanicalCoolantTank.label>
+  
+  <!-- EN: compression heatsink -->
+  <MechanicalHeatSink.label>TODO</MechanicalHeatSink.label>
+  
+  <!-- EN: lower actuator -->
+  <MechanicalLowerActuator.label>TODO</MechanicalLowerActuator.label>
+  
+  <!-- EN: lower piston -->
+  <MechanicalLowerPiston.label>TODO</MechanicalLowerPiston.label>
+  
+  <!-- EN: power core -->
+  <MechanicalPowerCore.label>TODO</MechanicalPowerCore.label>
+  
+  <!-- EN: roller bearing -->
+  <MechanicalRollerBearing.label>滚子轴承</MechanicalRollerBearing.label>
+  
+  <!-- EN: upper actuator -->
+  <MechanicalUpperActuator.label>TODO</MechanicalUpperActuator.label>
+  
+  <!-- EN: upper piston -->
+  <MechanicalUpperPiston.label>TODO</MechanicalUpperPiston.label>
+  
+  <!-- EN: weapon actuator -->
+  <MechanicalWeaponActuator.label>主武器驱动器</MechanicalWeaponActuator.label>
+  
+</LanguageData>

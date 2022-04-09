@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: melee counter parry bonus -->
+  <MeleeCounterParryBonus.label>近战反击加成</MeleeCounterParryBonus.label>
+  <!-- EN: When attacking an opponent with this weapon, the opponent's parry chance is divided by this value.\n\nThis is applied prior to determining the final parry chance. -->
+  <MeleeCounterParryBonus.description>当用这个武器攻击敌人时，这个数值除以敌人的招架几率。\n\n这个数值优先于最终招架几率的计算。</MeleeCounterParryBonus.description>
+  
+  <!-- EN: melee damage -->
+  <MeleeDamage.label>TODO</MeleeDamage.label>
+  <!-- EN: Damage ranges for each of this weapon's tools. -->
+  <MeleeDamage.description>TODO</MeleeDamage.description>
+  
+  <!-- EN: melee armor penetration factor -->
+  <MeleePenetrationFactor.label>近战护甲穿透系数</MeleePenetrationFactor.label>
+  <!-- EN: Capability to penetrate armor on a melee strike. This multiplier is applied to all melee attacks made with this weapon.\n\nThe base value is determined by the tool used. -->
+  <MeleePenetrationFactor.description>在近战攻击中穿透装甲的能力。该系数适用于所有使用该武器的近战攻击。\n\n其基础数值由武器本身决定。</MeleePenetrationFactor.description>
+  
+</LanguageData>

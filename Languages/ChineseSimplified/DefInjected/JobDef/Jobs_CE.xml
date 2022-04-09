@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Hunkering down. -->
+  <HunkerDown.reportString>卧倒中。</HunkerDown.reportString>
+  
+  <!-- EN: Reloading TurretType TargetA with TargetB. -->
+  <ReloadTurret.reportString>正在重新装填炮塔。</ReloadTurret.reportString>
+  
+  <!-- EN: Reloading FlagSource TargetB with AmmoType. -->
+  <ReloadWeapon.reportString>正在重新装填武器。</ReloadWeapon.reportString>
+  
+  <!-- EN: Running for cover. -->
+  <RunForCover.reportString>正在奔走寻找掩体。</RunForCover.reportString>
+  
+  <!-- EN: Stabilizing. -->
+  <Stabilize.reportString>急救中。</Stabilize.reportString>
+  
+  <!-- EN: FlagC TargetA from TargetB. -->
+  <TakeFromOther.reportString>从TargetB标记TargetA。</TakeFromOther.reportString>
+  
+  <!-- EN: Knocked down. -->
+  <WaitKnockdown.reportString>被击倒。</WaitKnockdown.reportString>
+  
+</LanguageData>

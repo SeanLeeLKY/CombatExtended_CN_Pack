@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ammo consumed per shot -->
+  <ammoConsumedPerShotCount.label>TODO</ammoConsumedPerShotCount.label>
+  <!-- EN: How many units of ammunition this gun consumes for each individual shot.\n\nThis applies to guns with multiple barrels that fire simultaneously with each pull of the trigger, or exotic energy weapons that use up different amounts of energy from a power cell. -->
+  <ammoConsumedPerShotCount.description>TODO</ammoConsumedPerShotCount.description>
+  
+  <!-- EN: caliber -->
+  <Caliber.label>口径</Caliber.label>
+  <!-- EN: The types of ammo this gun accepts. -->
+  <Caliber.description>这个武器可以使用的弹药类型。</Caliber.description>
+  
+  <!-- EN: magazine capacity -->
+  <MagazineCapacity.label>弹匣容量</MagazineCapacity.label>
+  <!-- EN: How many projectiles this weapon's magazine holds and how long it takes to reload it. -->
+  <MagazineCapacity.description>这个武器弹匣的子弹容量以及换弹时间。</MagazineCapacity.description>
+  
+  <!-- EN: muzzle flash -->
+  <MuzzleFlash.label>TODO</MuzzleFlash.label>
+  <!-- EN: How bright the muzzle flash is.\n\nMuzzle flashes will illuminate a shooter's position in darkness, exposing them to more accurate return fire. Brighter muzzle flashes are easier to target.\nPawns will remember the position of the muzzle flash for 5-10 seconds. -->
+  <MuzzleFlash.description>TODO</MuzzleFlash.description>
+  
+  <!-- EN: spread -->
+  <ShotSpread.label>误差</ShotSpread.label>
+  <!-- EN: Inherent projectile spread. This represents the inherent inaccuracy of the gun and causes random conical deviation that is not influenced by skill. -->
+  <ShotSpread.description>子弹固有偏离角度。表示枪的固有不准确性，引起的随机误差不受技能影响。</ShotSpread.description>
+  <!-- EN: {0}° -->
+  <ShotSpread.formatString>{0}°</ShotSpread.formatString>
+  
+  <!-- EN: sights efficiency -->
+  <SightsEfficiency.label>瞄准效率</SightsEfficiency.label>
+  <!-- EN: How good the sights on this weapon are. Quality sights reduce range errors and improve target leading. This is multiplied against the aiming accuracy of the shooter to calculate the amount of range and lead error.\n\nThe final modifier is calculated via this formula:\n(1.5 - aiming accuracy) / aiming efficiency\n\nLead error is calculated by multiplying this factor against total lead distance in cells. Range error is calculated by multiplying it against the total distance to the target divided by 4. -->
+  <SightsEfficiency.description>武器预判和测距的效率。射手的瞄准精确度除以本系数来计算范围和预判误差。\n\n最终判定数值根据以下公式计算：\n(1.5 - 瞄准精确度) / 瞄准效率\n\n预判误差：预判距离格数除以判定数值。\n射程误差：与目标的总距离除以4再除以判定数值。</SightsEfficiency.description>
+  
+  <!-- EN: weapon sway -->
+  <SwayFactor.label>武器稳定性</SwayFactor.label>
+  <!-- EN: How difficult the gun is to keep steady. \n\nThe total sway is calculated as:\n(4.5 - shooting accuracy) * weapon sway factor\n\nAiming accuracy influences the sway reduction during aimed shots. For example, at 75% aiming accuracy sway will be reduced to 25%. -->
+  <SwayFactor.description>枪保持稳定性的难度。\n\n总稳定性计算公式：\n(4.5 - 射击精确度) * 武器稳定系数\n\n瞄准射击过程中的稳定性会受到瞄准精确度影响。例如，75%的瞄准精确度稳定性会被减弱至25%。</SwayFactor.description>
+  
+</LanguageData>

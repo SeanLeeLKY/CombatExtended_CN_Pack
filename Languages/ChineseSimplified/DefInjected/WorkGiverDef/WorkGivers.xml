@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: make ammo -->
+  <DoBillsAmmoBench.label>制作弹药</DoBillsAmmoBench.label>
+  <!-- EN: producing ammo at -->
+  <DoBillsAmmoBench.gerund>制作弹药于</DoBillsAmmoBench.gerund>
+  <!-- EN: produce ammo -->
+  <DoBillsAmmoBench.verb>制作弹药</DoBillsAmmoBench.verb>
+  
+  <!-- EN: reload turrets -->
+  <ReloadTurrets.label>重新装填炮塔</ReloadTurrets.label>
+  <!-- EN: reloading -->
+  <ReloadTurrets.gerund>重新装填于</ReloadTurrets.gerund>
+  <!-- EN: reload -->
+  <ReloadTurrets.verb>重新装填</ReloadTurrets.verb>
+  
+</LanguageData>

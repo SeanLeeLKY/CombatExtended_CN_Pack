@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+
+  <!-- EN: Enabled suppression -->
+  <CE_Settings_EnabledSuppression_Title>启用压制系统</CE_Settings_EnabledSuppression_Title>
+  <!-- EN: Pawns will suffer from suppression while in combat. -->
+  <CE_Settings_EnabledSuppression_Desc>人物会在战斗中受到压制系统影响。</CE_Settings_EnabledSuppression_Desc>
+
+  <!-- EN: Enabled effect of carried weight -->
+  <CE_Settings_EnabledCarryThingModifier_Title>启用携带重量效果</CE_Settings_EnabledCarryThingModifier_Title>
+  <!-- EN: The mass of the things pawn carried affects on pawn movespeed. -->
+  <CE_Settings_EnabledCarryThingModifier_Desc>人物携带物品的重量会影响移动速度。</CE_Settings_EnabledCarryThingModifier_Desc>
+
+  <!-- EN: Show weapon action motes -->
+  <CE_Settings_ShowWeaponActionMotes_Title>显示武器动效</CE_Settings_ShowWeaponActionMotes_Title>
+  <!-- EN: Enables text motes, like reloading. -->
+  <CE_Settings_ShowWeaponActionMotes_Desc>启用武器文字动效，例如正在装填等。</CE_Settings_ShowWeaponActionMotes_Desc>
+
+  <!-- EN: Enable experimental melee buffs -->
+  <CE_Settings_ExperimentalMeleeBuffs_Title>启用实验性近战加成效果</CE_Settings_ExperimentalMeleeBuffs_Title>
+  <!-- EN: Pawns with higher stats will prioritise attacking vulnerable body parts. -->
+  <CE_Settings_ExperimentalMeleeBuffs_Desc>技能属性较高的人物会更倾向于攻击脆弱致命部位。</CE_Settings_ExperimentalMeleeBuffs_Desc>
+
+  <!-- EN: Mass carried -->
+  <SandyMassCarried>携带重量</SandyMassCarried>
+  <!-- EN:  {0} / {1} kg -->
+  <SandyMassValue>{0}/{1}千克</SandyMassValue>
+  <!-- EN: Show list -->
+  <Sandy_ViewList>显示列表</Sandy_ViewList>
+
+  <!-- EN: Out of bounds -->
+  <CE_OutOfBounds>超出范围</CE_OutOfBounds>
+  <!-- EN: Can't target self -->
+  <CE_CantTargetSelf>不能瞄准自己</CE_CantTargetSelf>
+  <!-- EN: Blocked by roof -->
+  <CE_BlockedByRoof>被屋顶阻挡</CE_BlockedByRoof>
+  <!-- EN: Shooting disallowed by -->
+  <CE_ShootingDisallowedBy>无法射击，原因：</CE_ShootingDisallowedBy>
+  <!-- EN: Out of range -->
+  <CE_OutOfRange>超出射程</CE_OutOfRange>
+  <!-- EN: Within minimum range -->
+  <CE_WithinMinimumRange>位于最小范围之内</CE_WithinMinimumRange>
+  <!-- EN: No line of sight -->
+  <CE_NoLineOfSight>无视线</CE_NoLineOfSight>
+
+  <!-- EN: Weight carried -->
+  <CE_CarriedWeight>携带重量</CE_CarriedWeight>
+
+</LanguageData>

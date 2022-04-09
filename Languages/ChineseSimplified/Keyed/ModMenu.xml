@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- ========== Headers ========== -->
+
+	<!-- EN: General -->
+  <CE_Settings_HeaderGeneral>主要项目</CE_Settings_HeaderGeneral>
+	<!-- EN: Ammunition -->
+  <CE_Settings_HeaderAmmo>弹药</CE_Settings_HeaderAmmo>
+
+	<!-- ========== Sub Headers ========== -->
+
+	<!-- EN: Main menu only settings -->
+  <CE_Settings_MainMenuOnly_Title>TODO</CE_Settings_MainMenuOnly_Title>
+	<!-- EN: You can only change these settings from the main menu to avoid gameplay issues. -->
+  <CE_Settings_MainMenuOnly_Desc>TODO</CE_Settings_MainMenuOnly_Desc>
+
+	<!-- ========== General settings ========== -->
+
+	<!-- EN: Show shell casings -->
+  <CE_Settings_ShowCasings_Title>显示弹壳抛落</CE_Settings_ShowCasings_Title>
+	<!-- EN: Firing weapons will display a dropped casing effect. Disable to improve performance. -->
+  <CE_Settings_ShowCasings_Desc>发射武器将显示弹壳抛落的效果。禁用可以提高性能。</CE_Settings_ShowCasings_Desc>
+
+	<!-- EN: Show combat taunts -->
+  <CE_Settings_ShowTaunts_Title>显示战斗嘲讽</CE_Settings_ShowTaunts_Title>
+	<!-- EN: Pawns will display text-based taunts during combat. -->
+  <CE_Settings_ShowTaunts_Desc>战斗时显示嘲讽文本。</CE_Settings_ShowTaunts_Desc>
+
+	<!-- EN: Allow hunting with melee weapons -->
+  <CE_Settings_AllowMeleeHunting_Title>启用近战武器狩猎</CE_Settings_AllowMeleeHunting_Title>
+	<!-- EN: Hunters will still be allowed to hunt if they have a melee weapon equipped. -->
+  <CE_Settings_AllowMeleeHunting_Desc>允许指定猎人工作的殖民者用近战武器狩猎。</CE_Settings_AllowMeleeHunting_Desc>
+
+	<!-- EN: Smoke effects -->
+  <CE_Settings_SmokeEffects_Title>TODO</CE_Settings_SmokeEffects_Title>
+	<!-- EN: Fire generates dangerous black smoke clouds, causing health complications to anyone not wearing protective gear. -->
+  <CE_Settings_SmokeEffects_Desc>TODO</CE_Settings_SmokeEffects_Desc>
+
+	<!-- EN: Merge explosions -->
+  <CE_Settings_MergeExplosions_Title>TODO</CE_Settings_MergeExplosions_Title>
+	<!-- EN: Nearby explosions are merged into eachother, significantly improving performance during a massive explosives cook-off. Strongly recommended to leave on. -->
+  <CE_Settings_MergeExplosions_Desc>TODO</CE_Settings_MergeExplosions_Desc>
+
+	<!-- EN: Disable Shield Belt While Manning Turrets. -->
+  <CE_Settings_TurretsBreakShields_Title>TODO</CE_Settings_TurretsBreakShields_Title>
+	<!-- EN:  When enabled, shield belts will deactivate while colonists are manning turrets. If disabled, shield belts will instead remain active, offering additional protection. -->
+  <CE_Settings_TurretsBreakShields_Desc>TODO</CE_Settings_TurretsBreakShields_Desc>
+
+	<!-- EN: Show Backpacks -->
+  <CE_Settings_ShowBackpacks_Title>TODO</CE_Settings_ShowBackpacks_Title>
+	<!-- EN: Enables / Disables the rendering of backpacks (all pawns) -->
+  <CE_Settings_ShowBackpacks_Desc>TODO</CE_Settings_ShowBackpacks_Desc>
+
+	<!-- EN: Show Tactical Vests -->
+  <CE_Settings_ShowWebbing_Title>TODO</CE_Settings_ShowWebbing_Title>
+	<!-- EN: Enables / Disables the rendering of tactical vests (all pawns) -->
+  <CE_Settings_ShowWebbing_Desc>TODO</CE_Settings_ShowWebbing_Desc>
+
+	<!-- ========== Ammo settings ========== -->
+
+	<!-- EN: Enable ammunition system -->
+  <CE_Settings_EnableAmmoSystem_Title>启用弹药系统</CE_Settings_EnableAmmoSystem_Title>
+	<!-- EN: Weapons require ammunition to reload and can use various specialized ammo types.\n\nWARNING: Changing this setting on an existing colony may cause bugs and instability, do so at your own risk. -->
+  <CE_Settings_EnableAmmoSystem_Desc>武器需要弹药装载和使用各种专用的弹药类型。\n\n警告: 在已有的存档中改变这个选项有可能造成未知错误导致游戏不稳定，请自负后果。</CE_Settings_EnableAmmoSystem_Desc>
+
+	<!-- EN: Simplified ammunition -->
+  <CE_Settings_EnableSimplifiedAmmo_Title>TODO</CE_Settings_EnableSimplifiedAmmo_Title>
+	<!-- EN: Reduces the number of ammo variants available.\nRemoves hollow point, sabot (bullets only), beanbag, slug, and armor piercing variants.\n\nWARNING: Changing this setting on an existing colony may cause bugs and instability, do so at your own risk. -->
+  <CE_Settings_EnableSimplifiedAmmo_Desc>TODO</CE_Settings_EnableSimplifiedAmmo_Desc>
+
+	<!-- EN: Right-click ammo selection -->
+  <CE_Settings_RightClickAmmoSelect_Title>右键选择弹药</CE_Settings_RightClickAmmoSelect_Title>
+	<!-- EN: Right-clicking the reload button brings up the ammo selection menu. -->
+  <CE_Settings_RightClickAmmoSelect_Desc>右击装弹按钮以选择弹种。</CE_Settings_RightClickAmmoSelect_Desc>
+
+	<!-- EN: Auto-reload on ammo select -->
+  <CE_Settings_AutoReloadOnChangeAmmo_Title>自动重装新选择弹药</CE_Settings_AutoReloadOnChangeAmmo_Title>
+	<!-- EN: Pawns will automatically reload when a new ammo type is selected. -->
+  <CE_Settings_AutoReloadOnChangeAmmo_Desc>当新的弹种被选择时，人物会自动装填新弹药。</CE_Settings_AutoReloadOnChangeAmmo_Desc>
+
+	<!-- EN: Auto-equip ammo -->
+  <CE_Settings_AutoTakeAmmo_Title>自动装备弹药</CE_Settings_AutoTakeAmmo_Title>
+	<!-- EN: Pawns without loadouts assigned will automatically pick up ammo for their equipped weapon. -->
+  <CE_Settings_AutoTakeAmmo_Desc>未指定装备分组时候，人物会自动拾取适合手中武器的弹药。</CE_Settings_AutoTakeAmmo_Desc>
+
+	<!-- EN: Display weapon caliber -->
+  <CE_Settings_ShowCaliberOnGuns_Title>显示武器弹药类型</CE_Settings_ShowCaliberOnGuns_Title>
+	<!-- EN: Ammunition-using weapons will have their caliber appended behind their name. -->
+  <CE_Settings_ShowCaliberOnGuns_Desc>自动在武器的名字后面加上弹药类型以及口径标准。</CE_Settings_ShowCaliberOnGuns_Desc>
+
+	<!-- EN: Re-use neolithic projectiles -->
+  <CE_Settings_ReuseNeolithicProjectiles_Title>可重复使用的石器时代弹药</CE_Settings_ReuseNeolithicProjectiles_Title>
+	<!-- EN: Neolithic projectiles will have a chance to drop on the floor on impact. They are automatically forbidden. -->
+  <CE_Settings_ReuseNeolithicProjectiles_Desc>石器时代的武器弹药在发射后将会有几率掉落在地上，默认禁止互动。</CE_Settings_ReuseNeolithicProjectiles_Desc>
+
+	<!-- EN: Realistic cook-off -->
+  <CE_Settings_RealisticCookOff_Title>弹药爆燃效果</CE_Settings_RealisticCookOff_Title>
+	<!-- EN: Ammunition stacks won't spawn damaging projectiles on cooking off. -->
+  <CE_Settings_RealisticCookOff_Desc>弹药堆在受热燃烧的时候不会产生随机乱射的效果。</CE_Settings_RealisticCookOff_Desc>
+
+</LanguageData>

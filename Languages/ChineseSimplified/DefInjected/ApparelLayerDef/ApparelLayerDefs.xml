@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: backpack -->
+  <Backpack.label>TODO</Backpack.label>
+  
+  <!-- EN: middle (head) -->
+  <MiddleHead.label>TODO</MiddleHead.label>
+  
+  <!-- EN: skin (head) -->
+  <OnHead.label>TODO</OnHead.label>
+  
+  <!-- EN: shield -->
+  <Shield.label>TODO</Shield.label>
+  
+  <!-- EN: strapped (head) -->
+  <StrappedHead.label>TODO</StrappedHead.label>
+  
+  <!-- EN: webbing -->
+  <Webbing.label>TODO</Webbing.label>
+  
+</LanguageData>

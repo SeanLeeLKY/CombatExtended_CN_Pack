@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cowardly -->
+  <Bravery.degreeDatas.cowardly.label>懦弱</Bravery.degreeDatas.cowardly.label>
+  <!-- EN: {PAWN_nameDef} always shies away from danger. {PAWN_pronoun} is usually the first to flee from battle. -->
+  <Bravery.degreeDatas.cowardly.description>NAME 总是畏惧危险的任何东西。在战场上，HECAP 总是第一个逃跑的人。</Bravery.degreeDatas.cowardly.description>
+  <!-- EN: brave -->
+  <Bravery.degreeDatas.brave.label>勇猛</Bravery.degreeDatas.brave.label>
+  <!-- EN: Few things scare {PAWN_nameDef}. In battle {PAWN_pronoun} stands unfazed where others panic and flee. -->
+  <Bravery.degreeDatas.brave.description>很少有东西能吓到 NAME. 在战场上，HE 总是勇猛顽强的作战。</Bravery.degreeDatas.brave.description>
+  <!-- EN: fearless -->
+  <Bravery.degreeDatas.fearless.label>无畏</Bravery.degreeDatas.fearless.label>
+  <!-- EN: {PAWN_nameDef} laughs in the face of danger. Some ascribe it to bravery, others to stupidity. Either way, {PAWN_nameDef} seems to lack any sense of self-preservation and will never flee from a threatening situation. -->
+  <Bravery.degreeDatas.fearless.description>NAME 总是笑对眼前的一切危险。有些人认为这是勇敢，有些人认为是愚蠢。 不管怎样，NAME 似乎缺乏自我保护意识，永远不会逃离危险的境地。  </Bravery.degreeDatas.fearless.description>
+  
+</LanguageData>

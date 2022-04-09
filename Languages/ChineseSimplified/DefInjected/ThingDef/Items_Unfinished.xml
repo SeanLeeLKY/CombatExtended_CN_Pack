@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Unfinished ammo batch -->
+  <UnfinishedAmmo.label>未完成的弹药</UnfinishedAmmo.label>
+  
+  <!-- EN: Unfinished arrow batch -->
+  <UnfinishedArrows.label>未完成的箭矢</UnfinishedArrows.label>
+  
+</LanguageData>

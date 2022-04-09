@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Suppression -->
+  <!-- EN: Suppressed! -->
+  <CE_SuppressedMote>被压制！</CE_SuppressedMote>
+  <!-- EN: Hunkering! -->
+  <CE_HunkeringMote>被完全压制！</CE_HunkeringMote>
+  <!-- EN: Suppressed (crouch-walking) -->
+  <CE_CrouchWalking>被压制（蹲俯）</CE_CrouchWalking>
+
+  <!-- Aim/Fire modes -->
+  <!-- EN: Auto -->
+  <CE_AutoFireLabel>全自动</CE_AutoFireLabel>
+  <!-- EN: Burst -->
+  <CE_BurstFireLabel>短点射</CE_BurstFireLabel>
+  <!-- EN: Single -->
+  <CE_SingleFireLabel>单发</CE_SingleFireLabel>
+  <!-- EN: Snapshot -->
+  <CE_SnapshotLabel>快速射击</CE_SnapshotLabel>
+  <!-- EN: Aimed shot -->
+  <CE_AimedShotLabel>瞄准射击</CE_AimedShotLabel>
+  <!-- EN: Suppress -->
+  <CE_SuppressFireLabel>压制射击</CE_SuppressFireLabel>
+  <!-- EN: Hold fire -->
+  <CE_HoldFireLabel>停止射击</CE_HoldFireLabel>
+  <!-- EN: Toggle fire mode. -->
+  <CE_ToggleFireModeDesc>切换射击模式。</CE_ToggleFireModeDesc>
+  <!-- EN: Toggle aim mode. -->
+  <CE_ToggleAimModeDesc>切换瞄准模式。</CE_ToggleAimModeDesc>
+
+  <!-- Aiming system -->
+  <!-- EN: Marked for artillery, expires in -->
+  <CE_MarkedForArtillery>炮击目标标记，消逝时间：</CE_MarkedForArtillery>
+
+  <!-- EN: Visibility error -->
+  <CE_VisibilityError>能见度误差</CE_VisibilityError>
+  <!-- EN: Smoke -->
+  <CE_SmokeDensity>烟云</CE_SmokeDensity>
+  <!-- EN: Lead error -->
+  <CE_LeadError>预判误差</CE_LeadError>
+  <!-- EN: Range error -->
+  <CE_RangeError>射程误差</CE_RangeError>
+  <!-- EN: Sway -->
+  <CE_Sway>枪口摆动</CE_Sway>
+  <!-- EN: Spread -->
+  <CE_Spread>扩散</CE_Spread>
+  <!-- EN: Miss radius -->
+  <CE_MissRadius>射偏范围</CE_MissRadius>
+  <!-- EN: Indirect fire -->
+  <CE_IndirectFire>间瞄射击</CE_IndirectFire>
+  <!-- EN: Cover height -->
+  <CE_CoverHeight>掩体高度</CE_CoverHeight>
+  <!-- EN: Target height -->
+  <CE_TargetHeight>目标高度</CE_TargetHeight>
+  <!-- EN: Target width -->
+  <CE_TargetWidth>目标宽度</CE_TargetWidth>
+
+  <!-- EN: Estimated hit chance -->
+  <CE_EstimatedHitChance>预估命中率</CE_EstimatedHitChance>
+
+  <!-- Reloading -->
+  <!-- EN: equipped -->
+  <CE_ReloadingEquipment>已装备</CE_ReloadingEquipment>
+  <!-- EN: stored -->
+  <CE_ReloadingInventory>已存储</CE_ReloadingInventory>
+  <!-- EN: ammo -->
+  <CE_ReloadingGenericAmmo>弹药</CE_ReloadingGenericAmmo>
+  <!-- EN: Reloading {0}! -->
+  <CE_ReloadingMote>正在装填装填{0}！</CE_ReloadingMote>
+  <!-- EN: Reloading turret {0}. -->
+  <CE_ReloadingTurretMote>正在装填炮塔{0}。</CE_ReloadingTurretMote>
+  <!-- EN: manned turret -->
+  <CE_MannedTurret>手动操控</CE_MannedTurret>
+  <!-- EN: auto-turret -->
+  <CE_AutoTurret>自动操控</CE_AutoTurret>
+  <!-- EN: Unload -->
+  <CE_UnloadLabel>卸载弹药</CE_UnloadLabel>
+  <!-- EN: Reload -->
+  <CE_ReloadLabel>重新装填</CE_ReloadLabel>
+  <!-- EN: Reloads this gun. -->
+  <CE_ReloadDesc>重新装填这把枪。</CE_ReloadDesc>
+  <!-- EN: Reloading -->
+  <CE_TurretReloading>重新装填中</CE_TurretReloading>
+
+  <!-- Inventory -->
+  <!-- EN: Equipping -->
+  <CE_TakeFromOther_Equipping>装备中</CE_TakeFromOther_Equipping>
+  <!-- EN: Taking -->
+  <CE_TakeFromOther_Taking>获取中</CE_TakeFromOther_Taking>
+
+  <!-- EN: Carried weight -->
+  <CE_CarriedWeight>携带重量</CE_CarriedWeight>
+  <!-- EN: Carried bulk -->
+  <CE_CarriedBulk>携带体积</CE_CarriedBulk>
+  <!-- EN: Encumbered -->
+  <CE_Encumbered>超重</CE_Encumbered>
+  <!-- EN: Final modifier -->
+  <CE_FinalModifier>最终修正</CE_FinalModifier>
+  <!-- EN: Inventory is full -->
+  <CE_InventoryFull>物品栏已满</CE_InventoryFull>
+  <!-- EN: Pick up -->
+  <CE_PickUp>拾取</CE_PickUp>
+  <!-- EN: Pick up half -->
+  <CE_PickUpHalf>拾取一半</CE_PickUpHalf>
+  <!-- EN: Cannot pick up -->
+  <CE_CannotPickUp>无法拾取</CE_CannotPickUp>
+  <!-- EN: Out of ammo -->
+  <CE_OutOfAmmo>弹药耗尽</CE_OutOfAmmo>
+  <!-- EN: Put away {0} -->
+  <CE_PutAway>收起{0}</CE_PutAway>
+  <!-- EN: Reload {0} with {1} -->
+  <CE_ReloadApparel>用{1}重新装填{0}</CE_ReloadApparel>
+  <!-- EN: can't do taming job because of a full inventory. -->
+  <CE_TamerInventoryFull>物品栏已满，无法进行驯服工作。</CE_TamerInventoryFull>
+  <!-- EN: Drop and haul -->
+  <CE_DropThingHaul>丢下并搬运</CE_DropThingHaul>
+  <!-- EN: Cannot drop -->
+  <CE_CannotDropThing>无法丢下</CE_CannotDropThing>
+  <!-- EN: Cannot drop and haul -->
+  <CE_CannotDropThingHaul>无法丢下并搬运</CE_CannotDropThingHaul>
+  <!-- EN: Cannot put away {0} -->
+  <CE_CannotPutAway>无法收起{0}</CE_CannotPutAway>
+  <!-- EN: This person refuses to change equipment. -->
+  <CE_CannotChangeEquipment>人物拒绝更换装备。</CE_CannotChangeEquipment>
+  <!-- EN: Consume -->
+  <CE_Eat>食用</CE_Eat>
+  <!-- EN: Stop Holding -->
+  <CE_HoldTrackerForget>停止持有</CE_HoldTrackerForget>
+  <!-- EN: Forced Holding -->
+  <CE_ForcedHold>强制持有</CE_ForcedHold>
+
+  <!-- Medical -->
+  <!-- EN: Stabilize {0} -->
+  <CE_Stabilize>急救{0}</CE_Stabilize>
+  <!-- EN: Cannot stabilize -->
+  <CE_CannotStabilize>无法急救</CE_CannotStabilize>
+  <!-- EN: {0} is not carrying any medicine in inventory -->
+  <CE_NoMedicine>{0}的物品栏里没有可用药物。</CE_NoMedicine>
+
+  <!-- Info Box -->
+  <!-- EN: Magazine size -->
+  <CE_MagazineSize>弹匣容量</CE_MagazineSize>
+  <!-- EN: Reload time -->
+  <CE_ReloadTime>换弹时间</CE_ReloadTime>
+  <!-- EN: Caliber -->
+  <CE_AmmoSet>口径</CE_AmmoSet>
+  <!-- EN: Fire modes -->
+  <CE_FireModes>射击模式</CE_FireModes>
+  <!-- EN: Burst shot count -->
+  <CE_AimedBurstCount>短点射射击次数</CE_AimedBurstCount>
+  <!-- EN: Used by -->
+  <CE_UsedBy>用于</CE_UsedBy>
+  <!-- EN: Multiplier for precipitation -->
+  <CE_StatsReport_FlammabilityPrecipitation>降水系数</CE_StatsReport_FlammabilityPrecipitation>
+  <!-- EN: Apparel flammability -->
+  <CE_StatsReport_FlammabilityApparelFactor>服装易燃性</CE_StatsReport_FlammabilityApparelFactor>
+  <!-- EN: Apparel coverage -->
+  <CE_StatsReport_FlammabilityApparelCoverage>服装覆盖范围</CE_StatsReport_FlammabilityApparelCoverage>
+  <!-- EN: Base value -->
+  <CE_StatsReport_BaseValue>基础值</CE_StatsReport_BaseValue>
+  <!-- EN: mm RHA -->
+  <CE_mmRHA>mm RHA</CE_mmRHA>
+  <!-- EN: MPa -->
+  <CE_MPa>MPa</CE_MPa>
+  <!-- EN: c -->
+  <CE_cells>c</CE_cells>
+  <!-- EN: ° -->
+  <CE_degrees>°</CE_degrees>
+  <!-- EN: m -->
+  <CE_meters>m</CE_meters>
+  <!-- EN: Weapon penetration factor -->
+  <CE_WeaponPenetrationFactor>武器穿甲系数</CE_WeaponPenetrationFactor>
+  <!-- EN: Adjusted for weapon -->
+  <CE_AdjustedForWeapon>调整过的武器</CE_AdjustedForWeapon>
+  <!-- EN: Damage per second -->
+  <CE_DPS>伤害/秒</CE_DPS>
+  <!-- EN: Damage variation -->
+  <CE_DamageVariation>伤害变动</CE_DamageVariation>
+  <!-- EN: Final average damage -->
+  <CE_FinalAverageDamage>最终平均伤害</CE_FinalAverageDamage>
+  <!-- EN: Wielder skill level -->
+  <CE_WielderSkillLevel>使用者技能等级</CE_WielderSkillLevel>
+  <!-- EN: chance -->
+  <CE_Chance>几率</CE_Chance>
+  <!-- EN: Chance factor -->
+  <CE_ChanceFactor>几率系数</CE_ChanceFactor>
+
+  <!-- Alerts -->
+  <!-- EN: Colonist has shield and two-handed weapon -->
+  <CE_ColonistHasShieldAndTwoHandedWeapon>殖民者同时使用了双手武器和护盾</CE_ColonistHasShieldAndTwoHandedWeapon>
+  <!-- EN: One of your colonists is carrying a shield and has a two-handed weapon equipped. They won't be able to attack unless they remove the shield or switch to another weapon. -->
+  <CE_ColonistHasShieldAndTwoHandedWeaponDesc>你的一个殖民者同时装备了护盾和双手武器。在没有卸除护盾或者更换合适武器前，人物无法进行攻击。</CE_ColonistHasShieldAndTwoHandedWeaponDesc>
+
+  <!-- Letters -->
+  <!-- EN: Strange signals -->
+  <CE_MechWarningLabel>奇怪的信号</CE_MechWarningLabel>
+  <!-- EN: You have intercepted several strange electronic signals nearby. While harmless on their own, such signals are often an indicator of Mechanoid activity in the area.\n\nSome of the larger Mechanoids have heavy armor that will easily deflect all rifle fire. {0} says you will need something that can defeat at least {1}mm RHA, molotov cocktails which can sink into openings and overheat internal components or EMP weapons which can destroy their circuitry. -->
+  <CE_MechWarningText>TODO</CE_MechWarningText>
+  <!-- EN: One of your colonists -->
+  <CE_MechWarningText_UnnamedColonist>TODO</CE_MechWarningText_UnnamedColonist>
+  <!-- Special display stats -->
+  <!-- EN: Collision height of this object. Will stop gunfire up to this height and humanlikes will generally crouch down this low to shoot over it.\n\nIf higher than a shooter's shot height it can't be fired over. If higher than body height it will obscure entirely. For baseline, grown humans this means 1.5m shot/1.75m body height respectively. -->
+  <CE_CoverHeightExplanation>TODO</CE_CoverHeightExplanation>
+
+  <!-- Tutorial popup -->
+  <!-- EN: CE adds several tutorial entries on subjects such as how the armor mechanics work and how not to die from Centipedes. It is recommended first time players enable the learning helper. -->
+  <CE_EnableTutorText>TODO</CE_EnableTutorText>
+  <!-- EN: Enable learning helper -->
+  <CE_EnableTutorEnable>TODO</CE_EnableTutorEnable>
+  <!-- EN: I know the risk -->
+  <CE_EnableTutorDisable>TODO</CE_EnableTutorDisable>
+
+  <!-- Assign menu -->
+  <!-- EN: Rearm -->
+  <CE_UpdateLoadoutNow>TODO</CE_UpdateLoadoutNow>
+
+  <!-- Uncompiled dev build popup -->
+  <!-- EN: Uncompiled CE dev build\n\nYou're running a development build of Combat Extended that is not intended for gameplay purposes, this will create a large amount of errors if you attempt to play a colony.\n\nEither download an official CE release from GitHub's Releases section, or if you need the latest development snapshot for testing purposes, get it from the link below. -->
+  <CE_UncompiledDevBuild>TODO</CE_UncompiledDevBuild>
+  <!-- EN: Get development snapshot -->
+  <CE_GetCompiledDevBuild>TODO</CE_GetCompiledDevBuild>
+  <!-- EN: Continue anyway -->
+  <CE_ContinueAnyway>TODO</CE_ContinueAnyway>
+
+</LanguageData>
